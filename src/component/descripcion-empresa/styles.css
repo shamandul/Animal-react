@@ -1,0 +1,23 @@
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-container .text h1 {
+  font-size: 2rem;
+  background-color: rgba(188, 188, 190, 0.424);
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.description-container .desc-emp {
+  background-color: #fff;
+}
+
+.description-container .desc-emp p {
+  background-color: #fff;
+  padding-top: 1.5rem;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
