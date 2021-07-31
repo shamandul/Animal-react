@@ -4,14 +4,16 @@ import ElementoVisor from "./ElementoVisor";
 function ElementoLista(props) {
   return (
     <React.Fragment>
-      {this.props.elementos.map((elemento) => {
+      {props.elementos.map((a) => {
         return (
           <ElementoVisor
-            id={elemento.id}
-            key={elemento.id}
-            title={elemento.title}
-            description={elemento.description}
-            img={elemento.img}
+            id={a.id}
+            key={a.id}
+            nombre={a.nombre}
+            tipo={a.tipo}
+            raza={a.raza}
+            edad={a.edad}
+            img={a.img}
           />
         );
       })}
@@ -19,4 +21,4 @@ function ElementoLista(props) {
   );
 }
 
-export default ElementoVisor;
+export default ElementoLista;

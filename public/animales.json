@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mok",
+    "tipo": "Gato",
+    "raza": "Angora",
+    "edad": "1 año",
+    "img": "http://localhost:3000/img/gato1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Loca",
+    "tipo": "Gato",
+    "raza": "Persa",
+    "edad": "3 meses",
+    "img": "http://localhost:3000/img/gato3.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "romalo",
+    "tipo": "Gato",
+    "raza": "Angora",
+    "edad": "6 meses",
+    "img": "http://localhost:3000/img/gato2.jpg"
+  }
+]

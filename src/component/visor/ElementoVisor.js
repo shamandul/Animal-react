@@ -3,17 +3,19 @@ import "./styles.css";
 
 class ElementoVisor extends Component {
   render() {
-    const { title, description, img } = this.props;
+    const { nombre, tipo, raza, edad, img } = this.props;
     return (
-      <div className="header-container">
+      <div className="elemento-container">
         <div
           className="imagen-elemento"
           style={{
             backgroundImage: `url(${img})`,
           }}
         ></div>
-        <h4>{title}</h4>
-        <p>{description}</p>
+        <h4>{nombre}</h4>
+        <p>{tipo}</p>
+        <p>{raza}</p>
+        <p>{edad}</p>
       </div>
     );
   }

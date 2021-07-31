@@ -1,0 +1,21 @@
+.visor-container {
+  width: 99vw;
+  height: 30vh;
+  background-color: rgb(235, 67, 207);
+}
+
+.elemento-container {
+  width: 20vw;
+  height: 20vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.elemento-container .imagen-elemento {
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
