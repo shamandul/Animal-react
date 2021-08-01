@@ -22,5 +22,13 @@
     "raza": "Angora",
     "edad": "6 meses",
     "img": "http://localhost:3000/img/gato2.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Vulma",
+    "tipo": "Gato",
+    "raza": "comun",
+    "edad": "6 meses",
+    "img": "http://localhost:3000/img/gato4.jpg"
   }
 ]

@@ -2,8 +2,13 @@ import React, { Component } from "react";
 import "./styles.css";
 
 class ElementoVisor extends Component {
+  mostrarInfo(id) {
+    console.log(id);
+  }
+  mostrarInfo = this.mostrarInfo.bind(this);
   render() {
-    const { nombre, tipo, raza, edad, img } = this.props;
+    const { id, nombre, tipo, raza, edad, img } = this.props;
+
     return (
       <div className="elemento-container">
         <div
@@ -12,10 +17,18 @@ class ElementoVisor extends Component {
             backgroundImage: `url(${img})`,
           }}
         ></div>
-        <h4>{nombre}</h4>
-        <p>{tipo}</p>
-        <p>{raza}</p>
-        <p>{edad}</p>
+        <h2>{nombre}</h2>
+        <ul>
+          <li>Tipo: {tipo}</li>
+          <li>Raza: {raza}</li>
+          <li>Edad: {edad}</li>
+        </ul>
+        <button
+          className="btn btn-prymary"
+          onClick={(e) => this.mostrarInfo(id, e)}
+        >
+          Más información
+        </button>
       </div>
     );
   }

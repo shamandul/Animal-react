@@ -1,21 +1,61 @@
 .visor-container {
-  width: 99vw;
-  height: 30vh;
-  background-color: rgb(235, 67, 207);
+
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .elemento-container {
   width: 20vw;
-  height: 20vh;
+  height: 30vh;
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .elemento-container .imagen-elemento {
   width: 20vw;
-  height: 10vh;
+  height: 20vh;
+  background-color: rgba(253, 253, 253, 0);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.elemento-container h2 {
+  background-color: rgba(240, 248, 255, 0);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.elemento-container ul {
+  padding: 10px;
+  list-style: none;
+  background-color: rgba(253, 253, 253, 0);
+}
+
+.elemento-container ul li {
+  background-color: rgba(253, 253, 253, 0);
+}
+
+.btn {
+  height: 50px;
+}
+
+.btn-prymary {
+  background-color: rgb(93, 167, 115);
+  color: #000;
+}
+
+.btn-prymary:hover {
+  background-color: rgb(7, 65, 24);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }

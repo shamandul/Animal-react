@@ -10,7 +10,7 @@ function Visor(props) {
   }, []);
 
   const obtenerAnimales = async () => {
-    await fetch("http://localhost:3000/animales.json", {
+    await fetch("animales.json", {
       mode: "cors",
       headers: {
         "Access-Control-Allow-Origin": "*",
@@ -23,7 +23,6 @@ function Visor(props) {
 
   return (
     <div className="visor-container">
-      <p>Visor funcionando</p>
       <ElementoLista elementos={animal} />
     </div>
   );
