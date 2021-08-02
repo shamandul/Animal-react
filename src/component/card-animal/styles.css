@@ -1,0 +1,48 @@
+.card-mas-info {
+  width: 90vw;
+  height: 80vh;
+  ;
+  margin-left: 5vw;
+}
+
+.card-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+}
+
+.card-img {
+  width: 80vw;
+  height: 50vh;
+  margin-left: 5vw;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-description {
+  margin-left: 5vw;
+  margin-top: 15px;
+}
+
+.card-footer {
+  margin-top: 20px;
+  margin-left: 5vw;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}

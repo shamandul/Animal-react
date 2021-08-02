@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 class ElementoVisor extends Component {
@@ -23,12 +24,18 @@ class ElementoVisor extends Component {
           <li>Raza: {raza}</li>
           <li>Edad: {edad}</li>
         </ul>
-        <button
+        <Link
           className="btn btn-prymary"
-          onClick={(e) => this.mostrarInfo(id, e)}
+          to={{
+            pathname: "/mas-info",
+            animal: { id, nombre, tipo, raza, edad, img },
+          }}
         >
           Más información
-        </button>
+        </Link>
+        {/* <Link className="btn btn-prymary" to={`/mas-info/${id}`}>
+          Más información
+        </Link> */}
       </div>
     );
   }
